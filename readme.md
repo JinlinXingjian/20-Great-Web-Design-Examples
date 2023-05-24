@@ -48,15 +48,15 @@
 
     贵阳北站：
 
-    <img src="./img/%E6%AF%94%E8%B5%9B/North_Guiyang_Railway_Station_2015.10.7.jpg" alt="North_Guiyang_Railway_Station_2015.10.7" style="zoom: 33%;" />
+    <img src="main/img/比赛/North_Guiyang_Railway_Station_2015.10.7.jpg" alt="North_Guiyang_Railway_Station_2015.10.7" style="zoom: 33%;" />
 
     龙洞堡机场：
 
-    <img src="./img/%E6%AF%94%E8%B5%9B/image-20230524152527534.png" alt="image-20230524152527534" style="zoom:33%;" />
+    <img src="main/img/比赛/image-20230524152527534.png" alt="image-20230524152527534" style="zoom:33%;" />
 
     港珠澳大桥：
 
-    <img src="./img/%E6%AF%94%E8%B5%9B/R.jpg" alt="R" style="zoom: 25%;" />
+    <img src="main/img/比赛/R.jpg" alt="R" style="zoom: 25%;" />
 
 - 社会发展：基础设施，公共服务
 
@@ -66,7 +66,7 @@
 
     配图：
 
-    <img src="./img/%E6%AF%94%E8%B5%9B/image-20230524153407288.png" alt="image-20230524153407288" style="zoom:50%;" />
+    <img src="main/img/比赛/image-20230524153407288.png" alt="image-20230524153407288" style="zoom:50%;" />
 
   - 民生工程
 
@@ -74,7 +74,7 @@
 
     配图：
 
-    <img src="./img/%E6%AF%94%E8%B5%9B/image-20230524153452354.png" alt="image-20230524153452354" style="zoom: 67%;" />
+    <img src="main/img/比赛/image-20230524153452354.png" alt="image-20230524153452354" style="zoom: 67%;" />
 
   - 数字通讯
 
@@ -90,7 +90,7 @@
 
     配图：
 
-    <img src="./img/%E6%AF%94%E8%B5%9B/image-20230524153530323.png" alt="image-20230524153530323" style="zoom:50%;" />
+    <img src="main/img/比赛/image-20230524153530323.png" alt="image-20230524153530323" style="zoom:50%;" />
 
   
 

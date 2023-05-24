@@ -1,18 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
-*{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box}
-*,body{padding:0px;	margin:0px;font-family: "微软雅黑";}
-body{color:#de2910ff;font-size: 16px; background: #033c76 url(../images/bg.png) no-repeat; background-size: 100% 100%;
-}
-@font-face{font-family:electronicFont;src:url(../font/DS-DIGIT.TTF)}
-html,body{min-height: 100%;}
 li{ list-style-type:none;}
-table{}
 i{ margin:0px; padding:0px; text-indent:0px;}
-img{ border:none; max-width: 100%;}
 a{ text-decoration:none; color:#de2910ff;}
 a.active,a:focus{ outline:none!important; text-decoration:none;}
 ol,ul,p,h1,h2,h3,h4,h5,h6{ padding:0; margin:0}
@@ -29,7 +17,6 @@ i{font-style: normal;}
 
 .head{position: relative; height: 90px; margin: 0 15px; padding-right: 60px;}
 .head h1{  font-size: 30px; letter-spacing: -2px; text-align: center; line-height: 90px; padding-right: 80px; padding-left: 470px;color: #de2910ff;}
-.head .menu{}
 .head .menu ul{ font-size: 0;}
 
 .head .menu li{ display: inline-block; position: relative;margin: 30px 15px;;}
@@ -65,7 +52,6 @@ i{font-style: normal;}
 .tit01{font-size: 16px; font-weight: 500; position: relative; padding-left: 15px;}
 .tit01:before{ left: 3px; top: 8px;}
 
-.mapc{background: url(../images/bg3.png) no-repeat center center; background-size: 100% 100%}
 .map{position: relative; height: 100%;}
 .mapnav{position: absolute;z-index: 10;}
 

@@ -251,10 +251,32 @@ $(function () {
     });
 
     myChart.on("click", function (params) {
-      window.open(
-        "../Province/" + params.name + "/" + "义务教育" + ".html",
-        "_self"
-      );
+      var url = "Province/" + params.name + "/" + "义务教育" + ".html";
+
+      var Province_list = [
+        "青海",
+        "陕西",
+        "贵州",
+        "西藏",
+        "甘肃",
+        "湖南",
+        "新疆",
+        "广西",
+        "四川",
+        "云南",
+      ];
+
+      myChart.on("click", function (params) {
+        var url = "../Province/" + params.name + "/" + "义务教育" + ".html";
+
+        if (Province_list.includes(params.name)) {
+          // 页面存在，打开新窗口
+          window.open(url, "_self");
+        } else {
+          // 页面不存在，跳转到指定的 404 页面
+          window.location.href = "404.html";
+        }
+      });
     });
   }
 });

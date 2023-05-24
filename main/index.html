@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple FullPage Example</title>
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/fullpage.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print"
+    onload="this.media='all'">
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section" style="background-image: url(img/bg/bg_1.jpg);">
+      <div class="tile">
+        <h1>新时代十年取得的伟大成就</h1>
+      </div>
+      <div class="content">
+        <div class="square-grid">
+          <div class="block">
+            <h2>实现中国梦的总体布局和战略布局</h2>
+            <ul>
+              <li>(1) 五位一体总体布局和四个全面战略布局的内涵与实施</li>
+              <li>(2) 稳中求进工作总基调与人民美好生活需要的关系</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h2>小康社会与脱贫攻坚战</h2>
+            <ul>
+              <li>(1) 习近平总书记关于小康社会建设的重要论述</li>
+              <li>(2) 中国历史上规模最大的脱贫攻坚战的成果与经验</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h2>全面深化改革与现代化治理能力</h2>
+            <ul>
+              <li>(1) 中国政治体制改革与历史性变革的实现</li>
+              <li>(2) 习近平总书记关于改革开放和现代化建设的重要思想</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h2>积极开放战略与共建"一带一路"</h2>
+            <ul>
+              <li>(1) 自由贸易试验区与海南自由贸易港建设的进展</li>
+              <li>(2) "一带一路"倡议的推进与全球合作的实际成果</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" style="background-image: url(img/bg/bg_2.jpg);">
+      <div class="tile">
+        <h1>实现中国梦的总体布局和战略布局</h1>
+        <div class="content">
+          <div class="square-grid">
+            <div class="block" style="width: 100%;">
+              (1) 习近平总书记着眼于全面建成小康社会、实现社会主义现代化和中华民族伟大复兴的中国梦，坚持整体推进、重点突破的方法论<br>
+              (2) 他制定了“五位一体”总体布局和“四个全面”战略布局，既着眼于工作全局，又突出战略重点，从点面结合上回答新时代建设布局的问题
+            </div>
+            <div class="block">
+              “五位一体”总体布局<br>
+              (1) “五位一体”总体布局涉及经济建设、政治建设、文化建设、社会建设、生态文明建设等各个方面。<br>
+              (2) 它是党中央治国理政的整体布局，从面上回答新时代“施政布局”的问题。
+            </div>
+            <div class="block">
+              “四个全面”战略布局<br>
+              (1) “四个全面”战略布局涉及全面建成小康社会、全面深化改革、全面依法治国、全面从严治党等四大重点任务。<br>
+              (1) “四个全面”战略布局涉及全面建成小康社会、全面深化改革、全面依法治国、全面从严治党等四大重点任务。
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" style="background-image: url(img/bg/bg_3.jpg);" id="map_main">
+      <iframe src="../jessekk.github.io-main/DataBrowsing/China/China.html" frameborder="0" width="100%" height="100%" id="map_main_con"></iframe>
+    </div>
+    <div class="section" style="background-image: url(img/bg/bg_4.jpg);">
+      <div class="tile">
+        <h1>全面深化改革与现代化治理能力</h1>
+      </div>
+    </div>
+    <div class="section" style="background-image: url(img/bg/bg_5.jpg);">
+      <div class="tile">
+        <h1>积极开放战略与共建"一带一路"</h1>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage({
+        navigation: true,
+      });
+    });
+
+  </script>
+</body>
+
+</html>

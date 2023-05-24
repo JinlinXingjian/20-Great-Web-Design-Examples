@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'LXGW WenKai Screen';
+}
+.section {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fp-overflow {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* 确保容器铺满父元素的高度 */
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul,
+li {
+  background-color: transparent;
+}
+.tile,
+.content {
+  background-color: transparent;
+  line-height: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+.tile {
+  position: absolute;
+  top: 30px;
+}
+.content {
+  line-height: 40px;
+  text-align: left;
+  padding: 20px;
+}
+.square-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.block {
+  width: 300px;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgba(255, 129, 119, 0.1) 0%, rgba(255, 134, 122, 0.1) 0%, rgba(255, 140, 127, 0.1) 21%, rgba(249, 145, 133, 0.1) 52%, rgba(207, 85, 108, 0.1) 78%, rgba(177, 42, 91, 0.1) 100%);
+  text-align: left;
+  border-radius: 10px;
+  border: 1px solid black;
+  backdrop-filter: blur(50px);
+}
+

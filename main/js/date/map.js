@@ -267,7 +267,7 @@ $(function () {
       ];
 
       myChart.on("click", function (params) {
-        var url = "../Province/" + params.name + "/" + "义务教育" + ".html";
+        var url = "Province/" + params.name + "/" + "义务教育" + ".html";
 
         if (Province_list.includes(params.name)) {
           // 页面存在，打开新窗口

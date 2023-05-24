@@ -15,6 +15,9 @@
   justify-content: center;
   align-items: center;
 }
+img{
+  width: 100%;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -36,7 +39,7 @@ li {
   top: 30px;
 }
 .content {
-  line-height: 40px;
+  line-height: 30px;
   text-align: left;
   padding: 20px;
 }

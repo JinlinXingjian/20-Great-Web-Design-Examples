@@ -1120,7 +1120,7 @@
       licenseKey: '',
       credits: {
         "enabled": true,
-        "label": '作者: 曾祥龙',
+        "label": '作者: 曾祥龙，彭长辅',
         "position": 'right'
       },
       //scrolling
